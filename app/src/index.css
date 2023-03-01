@@ -4,9 +4,9 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
-.contract, .existing-contracts {
+.contract,
+.existing-contracts {
   margin: 20px;
-  display: inline-block;
   padding: 40px;
   border: 1px solid #ddd;
   background-color: #fff;
@@ -26,7 +26,7 @@ label {
   margin: 20px;
 }
 
-input[type="text"] {
+input[type='text'] {
   padding: 6px;
   font-size: 18px;
 }
@@ -67,4 +67,11 @@ input[type="text"] {
 .existing-contract .complete {
   color: #5aa75a;
   text-align: center;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: '100vh';
 }
